@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: 'export',
+  // Remove export config for Netlify Next.js runtime
   trailingSlash: true,
   images: {
     unoptimized: true,
